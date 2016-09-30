@@ -1,10 +1,3 @@
-# quick-log
-Log every thing to the specified file.
-You can also logs by queue. This way all logs will be printed together.
-
-#### Example
-
-```
 'use strict';
 
 const quickLog = require('./index');
@@ -62,5 +55,8 @@ const interval = setInterval(() => {
  2016-09-30 12:14:45 - sWExaCCatY - Interval 3: This is a log item: an other log - 2
  2016-09-30 12:14:45 - sWExaCCatY - --------- (NORMAL)  END Display ( test-log ) ---------
  */
-```
+
+
+
+
 

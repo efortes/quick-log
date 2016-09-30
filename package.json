@@ -1,0 +1,21 @@
+{
+  "name": "quick-log",
+  "version": "0.0.1",
+  "description": "Adds the possibility to log to files and to log by queue (Log everything and print the logs together)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cached",
+    "log",
+    "queue",
+    "quick log",
+    "file"
+  ],
+  "author": "Elvin Fortes <info@fortesglobalweb.nl> (http://www.fortesglobalweb.nl)",
+  "license": "ISC",
+  "dependencies": {
+    "tracer": "^0.8.3"
+  }
+}
