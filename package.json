@@ -4,7 +4,6 @@
   "description": "Adds the possibility to log to files and to log by queue (Log everything and print the logs together)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cached",
@@ -13,6 +12,10 @@
     "quick log",
     "file"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efortes/quick-log/"
+  },
   "author": "Elvin Fortes <info@fortesglobalweb.nl> (http://www.fortesglobalweb.nl)",
   "license": "ISC",
   "dependencies": {
