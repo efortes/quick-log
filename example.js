@@ -13,7 +13,7 @@ quickLog.setConfig({
 fileLogger.log('Yes test');
 
 // Log error
-fileLogger.error('Yes test');
+fileLogger.error({name: 'hello world'});
 
 const queueLog = new QueueLog({
   referenceId: 'test-log',

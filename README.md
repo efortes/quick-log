@@ -20,7 +20,7 @@ quickLog.setConfig({
 fileLogger.log('Yes test');
 
 // Log error
-fileLogger.error('Yes test');
+fileLogger.error({name: 'hello world'});
 
 const queueLog = new QueueLog({
   referenceId: 'test-log',
@@ -49,7 +49,7 @@ const interval = setInterval(() => {
 // Output
 /*
  2016-09-30 12:14:43 (NORMAL) - Yes test
- 2016-09-30 12:14:43 (ERROR) - Yes test
+ 2016-09-30 12:14:43 (ERROR) - { name: 'hello world' }
  2016-09-30 12:14:43 - sWExaCCatY - --------- INIT Display ( test-log ) ---------
  2016-09-30 12:14:44 - sWExaCCatY - Interval 1: This is a log item: 1 - 0
  2016-09-30 12:14:44 - sWExaCCatY - Interval 1: This is a log item: test log - 1
